@@ -47,3 +47,6 @@ The book object is formatted like so:
 }
 ```
 Where book.year is the year the book won the awards. Usually this denotes the book was published the year prior.
+
+## Contributions
+booktoread is open source. Contribute today at [https://github.com/dlinch/booktoread](https://github.com/dlinch/booktoread)!

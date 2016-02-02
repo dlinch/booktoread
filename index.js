@@ -152,19 +152,17 @@ var books = [
     publisher: 'Analog Science Fiction and Fact',
     amazonLink: 'http://www.amazon.com/Camouflage-Joe-Haldeman/dp/0441012523/ref=sr_1_1?s=books&ie=UTF8&qid=1454441905&sr=1-1&keywords=camouflage+joe+haldeman',
   },
-
-
 ]
 
  module.exports = {
-   randomBook: function(){
-     return books[Math.floor(Math.random()*books.length)]
+   random: function(){
+     return books[Math.floor(Math.random()*books.length)];
    },
-   addBook: function(bookObject){
-     books.push(bookObject)
+   all: function(){
+     return books;
    },
-   randomDoubleAward: function(){
-     function doubleFilter(object){
+   randomDouble: function(){
+     doubleFilter = function(object){
        if (object.winner.length>1){
          return true;
        }

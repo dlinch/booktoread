@@ -1,0 +1,23 @@
+{
+  "name": "booktoread",
+  "version": "1.0.0",
+  "description": "node module that returns a recent, award winning book to read",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlinch/booktoread.git"
+  },
+  "keywords": [
+    "book",
+    "random"
+  ],
+  "author": "derikl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlinch/booktoread/issues"
+  },
+  "homepage": "https://github.com/dlinch/booktoread#readme"
+}
